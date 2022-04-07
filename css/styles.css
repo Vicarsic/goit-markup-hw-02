@@ -142,7 +142,7 @@ a {
     font-weight: 400;
     color: #757575;
 }
-/* Баг колір адреси */
+/* Не видно кольорів бо світлі */
 .city {
     font-family: 'Roboto';
     font-style: normal;
@@ -151,4 +151,13 @@ a {
     line-height: 1,71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
