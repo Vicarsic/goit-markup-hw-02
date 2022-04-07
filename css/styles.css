@@ -63,7 +63,8 @@ a {
 .header {
     color: #212121;
 }
-.contact-one {
+
+.contact-one:hover {
     color: #2196F3;
 }
 .contact-two {
