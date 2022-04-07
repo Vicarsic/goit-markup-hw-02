@@ -1,6 +1,76 @@
-.root {
-
+body {
+    background-color: #FFFFFF;
 }
-.span {
-    color: blue;
+
+/* 1 страница */
+/* хедер background: #FFFFFF; */
+/* цвет заголовки color: #212121;*/
+/* основной текст color: #757575;*/
+/* акцент цвет ссылки веб и Студия color: #2196F3; */
+/* Эффективные решения осн color: #FFFFFF*;/
+/* Эффективные решения фон background: #2F303A; */
+/*  Чем занимаемся фон background: #E5E5E5; */
+/* Наша команда background: #F5F4FA; */
+/* футер background: #2F303A; */
+/* адресс внизу color: rgba(255, 255, 255, 0.6); */
+
+
+/* 2 страница */
+/* хедер background: #FFFFFF; */
+/* футер background: #2F303A; */
+/* заголовки ттекста color: #212121; */
+/* абзацы color: #757575; */
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19px;
+    letter-spacing: 0.03em;
+}
+.link {
+    link-style: none;
+}
+.logo-blue {
+    color: #2196F3;
+}
+.logo-black {
+    color: #212121;
+}
+.link-one:hover {
+    color: #2196F3; 
+}
+.header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.contact-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.contact-two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
