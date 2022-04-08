@@ -26,6 +26,7 @@
 
 }
 body {
+    font-family: Roboto;
     background-color: #FFFFFF;
     
 }
@@ -66,18 +67,29 @@ a {
     color: #212121;
 
 }
-.link-one:hover {
+.link-one:hover,
+.link-one:focus {
+    font-family: Roboto;
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
     color: #2196F3; 
 }
+.header .link-one .current {
+    color: var(--accent-color);
+}
+
 .contact {
-    font-family: 'Roboto';
-    font-style: medium;
+    font-family: Roboto;
+    font-style: Medium;
     font-size: 14px;
     line-height: 1,14;
     line-height: 100%;
     align: left;
-    vertical align: top;
-    letter spacing: 2%;
+    vertical-align: top;
+    letter-spacing: 0,02;
 }
 .contact .contact-link {
     color: var(--primary-text-color)
@@ -85,6 +97,17 @@ a {
 .contact-link:hover,
 .contact-link:focus {
     color: #2196F3;
+}
+.contact-foli {
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 14px;
+    Line height: 1,14;
+    Line height: 100%
+    align: Left;
+    Vertical-align: Top;
+    letter-spacing: 0,02;
+    color: #757575;
 }
 .contact-two {
     color: #757575;
@@ -109,12 +132,14 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88;
+    text-align: center;
     display: flex;
-    text-orientation: center;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px, rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+.
 }
 .feature-list {
     font-family: Roboto;
@@ -135,7 +160,7 @@ a {
     color: #757575;
 } 
 .section-title {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -152,7 +177,7 @@ a {
 }
 
 .team-name {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-size: 16px;
     line-height: 1,88;
@@ -172,7 +197,7 @@ a {
     background-color: #2F303A;
 }
 .city {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -181,7 +206,7 @@ a {
     color: #FFFFFF;
 }
 .info {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
