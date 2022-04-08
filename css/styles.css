@@ -1,6 +1,3 @@
-body {
-    background-color: #FFFFFF;
-}
 
 /* 1 страница */
 /* хедер background: #FFFFFF; */
@@ -20,11 +17,18 @@ body {
 /* футер background: #2F303A; */
 /* заголовки ттекста color: #212121; */
 /* абзацы color: #757575; */
-.root {
-    --title-text-color: #212121;
-    --
-}
 
+.root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-white-color:#FFFFFF;
+    --accent-color: #2196F3;
+
+}
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
 /* Шапка */
 ul {
     list-style: none;
@@ -52,20 +56,35 @@ a {
 .link-one:hover {
     color: #2196F3; 
 }
-.page-header{
+/* Site nav */
+.site-nav {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
+    color: #212121;
 }
 .header {
     color: #212121;
 }
-
-.contact-one:hover {
-    color: #2196F3;
+.contact {
+    font-family: 'Roboto';
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1,14;
+    line-height: 100%;
+    align: left;
+    vertical align: top;
+    letter spacing: 2%;
+}
+.contact .contact-link {
+    color: var(--primary-text-color);
+}
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+    color: var(--accent-color);
 }
 .contact-two {
     color: #757575;
@@ -93,11 +112,11 @@ a {
     text-align: center;
     color: #FFFFFF;
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px, rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .feature-list {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     letter-spacing: 0.03em;
 }
@@ -162,3 +181,8 @@ a {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.info:hover,
+.info:focus {
+    color: var(--accent-color);
+}
+    
