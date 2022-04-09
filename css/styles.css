@@ -83,7 +83,7 @@ a {
 .contact {
     font-style: Medium;
     line-height: 1,14;
-    letter-spacing: 0,02;
+    letter-spacing: 0,02em;
 }
 .contact-link {
     color: var(--primary-text-color)
@@ -96,18 +96,18 @@ a {
 .filter {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
     vertical-align: Top;
-    letter-spacing: 0,03;
+    letter-spacing: 0,03em;
 }
-.buttons-all {
+.filter .buttons-all {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
-.buttons {
+.filter .buttons {
     color: var(--title-text-color);
     cursor: pointer;
 }
@@ -183,7 +183,7 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0,06;
+    letter-spacing: 0,06em;
     color: var(--title-text-color);
 }
 .project-work {
