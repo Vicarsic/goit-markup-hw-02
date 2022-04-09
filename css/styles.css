@@ -19,8 +19,8 @@
     --team-bgd-color: #F5F4FA;
     --contact-color: rgba(255, 255, 255, 0.6);
 }
-body {
-    font-family: 'Roboto', sans-serif;
+.page {
+    font-family: 'Roboto', "Tahoma", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -42,7 +42,7 @@ a {
     Top: 24px;
     Left: 215px;
     font-family: 'Raleway';
-    font-style: Bold;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1,19px;
@@ -50,9 +50,11 @@ a {
     color: var(--accent-color);
 }
 .logo-black {
+    font-family: inherit;
     color: var(--title-text-color);
 }
 .logo-white {
+    font-family: inherit;
     color: var(--primary-white-color);
 }
 
@@ -70,6 +72,11 @@ a {
     color: var(--accent-color); 
 }
 .header .link .list-current {
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
     color: var(--accent-color);
 }
 
@@ -85,8 +92,11 @@ a {
 .contact-link:focus {
     color: var(--accent-color);
 }
+
 .filter {
-    font-style: normal ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1,62;
     vertical-align: Top;
@@ -118,10 +128,13 @@ a {
     text-transform: uppercase;
 }
 .button {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88;
     text-align: center;
+    align-items: center;
     display: flex;
     cursor: pointer;
     color: var(--primary-white-color);
@@ -167,14 +180,13 @@ a {
     text-align: center;
 }
 .project-name {
-    font-style: Bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0,06;
     color: var(--title-text-color);
 }
 .project-work {
-    font-style: Regular;
     font-style: 16px;
     line-height: 1,88;
     color: var(--primary-text-color);
