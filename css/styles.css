@@ -27,6 +27,7 @@
 }
 body {
     font-family: Roboto;
+    font-style: normal;
     background-color: #FFFFFF;
     
 }
@@ -39,7 +40,7 @@ a {
 }
 
 .logo-blue {
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-style: Bold;
     font-weight: 700;
     font-size: 26px;
@@ -115,7 +116,6 @@ a {
 /* Герой */
 .hero {
     font-family: 'Roboto';
-    font-style: normal;
     letter-spacing: 0.06em;
     text-align: center;
     background-color: #2F303A;
@@ -140,6 +140,18 @@ a {
     border-radius: 4px;
 }
 /* Преимущества */
+.feature .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowarp;
+    clip-path: insert(100%);
+    clip: rect(0 0 0 0);
+    owerflow: hidden;
+}
 .feature-list {
     font-family: Roboto;
     font-style: normal;
@@ -189,7 +201,6 @@ a {
     font-style: Regular;
     font-style: 16px;
     line-height: 1,88;
-    line-height: 160%;
     Align: Left;
     Vertical align: Top;
     letter-spacing: 0,03;
@@ -209,11 +220,11 @@ a {
     text-align: center;
     letter-spacing: 0.03em; 
 }
-.name {
+.team-name .name {
     font-weight: 500;
     color: #212121;
 }
-.position {
+.team-name .position {
     font-weight: 400;
     color: #757575;
 }
