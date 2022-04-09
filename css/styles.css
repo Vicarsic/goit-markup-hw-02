@@ -144,14 +144,9 @@ a {
     clip: rect(0 0 0 0);
     owerflow: hidden;
 }
-.feature-list {
-    font-family: 'Roboto';
-    font-style: normal;
-    letter-spacing: 0.03em;
-}
+
 .title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1,14;
     text-transform: uppercase;
     color: var(--title-text-color);
@@ -162,20 +157,16 @@ a {
 } 
 /* Чем занимаемся */
 .section-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1,17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
 } 
 .work-list {
     text-align: center;
 }
 .project-name {
-    font-family: 'Roboto';
     font-style: Bold;
     font-size: 18px;
     line-height: 2;
@@ -183,12 +174,9 @@ a {
     color: var(--title-text-color);
 }
 .project-work {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-style: Regular;
     font-style: 16px;
     line-height: 1,88;
-    letter-spacing: 0,03;
     color: var(--primary-text-color);
 }
 /* Наша команда */
@@ -196,41 +184,27 @@ a {
     background-color: var(--team-bgd-color);
 }
 .team-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-size: 16px;
     line-height: 1,88;
     text-align: center;
-    letter-spacing: 0.03em; 
+    
 }
 .team-name .name {
     font-weight: 500;
     color: var(--title-text-color);
-}
-.team-name .position {
-    font-weight: 400;
-    color: var(--primary-text-color);
 }
 /* Футер */
 .footer {
     background-color: var(--hero-bgd-color);
 }
 .city {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1,71;
-    letter-spacing: 0.03em;
     color: var(--primary-white-color);
 }
 .contact-item {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1,71;
-    letter-spacing: 0.03em;
     color: var(--contact-color);
 }
 .contact-item:hover,
