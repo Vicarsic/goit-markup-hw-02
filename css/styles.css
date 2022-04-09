@@ -1,5 +1,5 @@
 
-/* 1 страница */
+
 /* хедер background: #FFFFFF; */
 /* цвет заголовки color: #212121;*/
 /* основной текст color: #757575;*/
@@ -11,10 +11,6 @@
 /* футер background: #2F303A; */
 /* адресс внизу color: rgba(255, 255, 255, 0.6); */
 
-
-/* 2 страница */
-/* хедер background: #FFFFFF; */
-/* футер background: #2F303A; */
 /* заголовки ттекста color: #212121; */
 /* абзацы color: #757575; */
 
@@ -23,14 +19,15 @@
     --title-text-color: #212121;
     --primary-white-color:#FFFFFF;
     --accent-color: #2196F3;
+    --hero-bgd-color: #2F303A;
+    --team-bgd-color: #F5F4FA;
 
 }
 body {
     font-family: Roboto;
     font-style: normal;
     background-color: #FFFFFF;
-    
-}
+    }
 /* Шапка */
 ul {
     list-style: none;
@@ -57,8 +54,7 @@ a {
 
 /* Site nav */
 
-.header .link,
-.header .link-one {
+.header .link {
     font-family: Roboto;
     font-style: Medium;
     font-weight: 500;
@@ -68,8 +64,8 @@ a {
     color: #212121;
 
 }
-.link-one:hover,
-.link-one:focus {
+.link:hover,
+.link:focus {
     font-family: Roboto;
     font-style: Medium;
     font-weight: 500;
@@ -78,7 +74,7 @@ a {
     letter-spacing: 0.02em;
     color: #2196F3; 
 }
-.header .link-one .current {
+.header .link .current {
     color: var(--accent-color);
 }
 
@@ -104,7 +100,7 @@ a {
     font-style: Medium;
     font-size: 14px;
     Line height: 1,14;
-    Line height: 100%
+    Line height: 100%;
     align: Left;
     Vertical-align: Top;
     letter-spacing: 0,02;
@@ -112,6 +108,24 @@ a {
 }
 .contact-two {
     color: #757575;
+}
+.filter {
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 1,62;
+    Line height: 139%;
+    Align: Center;
+    vertical-align: Top;
+    letter-spacing: 0,03;
+}
+.filter .buttons-all {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.filter .buttons {
+    color:#212121 ;
+    background-color: #FFFFFF;
 }
 /* Герой */
 .hero {
@@ -123,9 +137,12 @@ a {
 }
 /* баг кольору */
 .hero-title {
+    font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
+    letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
 }
 .hero-button {
@@ -134,13 +151,15 @@ a {
     line-height: 1,88;
     text-align: center;
     display: flex;
+    cursor: pointer;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px, rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 /* Преимущества */
-.feature .visually-hidden {
+.feature .visually-hidden,
+.projects .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -241,7 +260,7 @@ a {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.info {
+.address-info .info {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -250,8 +269,8 @@ a {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.info:hover,
-.info:focus {
+.address-info .info:hover,
+.address-info .info:focus {
     color: var(--accent-color);
 }
     
