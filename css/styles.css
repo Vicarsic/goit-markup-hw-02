@@ -59,10 +59,8 @@ a {
 /* Site nav */
 
 .header .link {
-    font-family: 'Roboto';
     font-style: Medium;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
@@ -76,9 +74,7 @@ a {
 }
 
 .contact {
-    font-family: 'Roboto';
     font-style: Medium;
-    font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0,02;
 }
@@ -90,8 +86,7 @@ a {
     color: var(--accent-color);
 }
 .filter {
-    font-family: 'Roboto';
-    font-style: Medium;
+    font-style: normal ;
     font-size: 16px;
     line-height: 1,62;
     vertical-align: Top;
@@ -104,12 +99,10 @@ a {
 }
 .buttons {
     color: var(--title-text-color);
-    background-color: var(--primary-white-color);
     cursor: pointer;
 }
 /* Герой */
 .hero {
-    font-family: 'Roboto';
     letter-spacing: 0.06em;
     text-align: center;
     background-color: var(--hero-bgd-color);
@@ -117,7 +110,6 @@ a {
 }
 /* баг кольору */
 .hero-title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
@@ -165,10 +157,8 @@ a {
     color: var(--title-text-color);
 }
 .title-item {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1,71;
-    color: var(--primary-text-color);
+    
 } 
 /* Чем занимаемся */
 .section-title {
