@@ -1,5 +1,3 @@
-
-
 /* хедер background: #FFFFFF; */
 /* цвет заголовки color: #212121;*/
 /* основной текст color: #757575;*/
@@ -26,7 +24,7 @@
 body {
     font-family: Roboto;
     font-style: normal;
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     }
 /* Шапка */
 ul {
@@ -35,7 +33,6 @@ ul {
 a {
     text-decoration: none;
 }
-
 .logo-blue {
     font-family: Raleway;
     font-style: Bold;
@@ -62,7 +59,6 @@ a {
     line-height: 1,14;
     letter-spacing: 0.02em;
     color: #212121;
-
 }
 .link:hover,
 .link:focus {
@@ -74,8 +70,8 @@ a {
     letter-spacing: 0.02em;
     color: #2196F3; 
 }
-.header .link .current {
-    color: var(--accent-color);
+.header .link .list-current {
+    color:#2196F3;
 }
 
 .contact {
@@ -83,49 +79,32 @@ a {
     font-style: Medium;
     font-size: 14px;
     line-height: 1,14;
-    line-height: 100%;
-    align: left;
-    vertical-align: top;
     letter-spacing: 0,02;
 }
-.contact .contact-link {
+.contact-link {
     color: var(--primary-text-color)
 }
 .contact-link:hover,
 .contact-link:focus {
     color: #2196F3;
 }
-.contact-foli {
-    font-family: Roboto;
-    font-style: Medium;
-    font-size: 14px;
-    Line height: 1,14;
-    Line height: 100%;
-    align: Left;
-    Vertical-align: Top;
-    letter-spacing: 0,02;
-    color: #757575;
-}
-.contact-two {
-    color: #757575;
-}
 .filter {
     font-family: Roboto;
     font-style: Medium;
     font-size: 16px;
     line-height: 1,62;
-    Line height: 139%;
-    Align: Center;
     vertical-align: Top;
     letter-spacing: 0,03;
 }
-.filter .buttons-all {
+.buttons-all {
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
 }
-.filter .buttons {
+.buttons {
     color:#212121 ;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 /* Герой */
 .hero {
@@ -145,7 +124,7 @@ a {
     text-align: center;
     text-transform: uppercase;
 }
-.hero-button {
+.button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88;
@@ -203,34 +182,27 @@ a {
 .work-list {
     text-align: center;
 }
-.project .project-name {
+.project-name {
     font-family: Roboto;
     font-style: Bold;
     font-size: 18px;
     line-height: 2;
-    line-height: 171%
-    align: Left;
-    vertical-align: Top;
     letter-spacing: 0,06;
-    Fill: Solid;
     color: #212121;
 }
-.project .project-work {
+.project-work {
     font-family: Roboto;
+    font-weight: 400;
     font-style: Regular;
     font-style: 16px;
     line-height: 1,88;
-    Align: Left;
-    Vertical align: Top;
     letter-spacing: 0,03;
-    Fill: solid;
     color: #757575;
 }
 /* Наша команда */
 .section-team {
     background-color: #F5F4FA;
 }
-
 .team-name {
     font-family: Roboto;
     font-style: normal;
@@ -260,7 +232,7 @@ a {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.address-info .info {
+.contact-item {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -269,8 +241,8 @@ a {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.address-info .info:hover,
-.address-info .info:focus {
+.contact-item:hover,
+.contact-item:focus {
     color: var(--accent-color);
 }
     
