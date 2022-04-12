@@ -24,8 +24,7 @@
     letter-spacing: 0.03em;
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-
-    }
+}
 /* Шапка */
 .list {
     list-style: none;
