@@ -53,7 +53,6 @@
 /* Site nav */
 
 .header .link {
-    font-style: ;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -65,11 +64,6 @@
     color: var(--accent-color); 
 }
 .header .link .list-current {
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
     color: var(--accent-color);
 }
 
@@ -90,11 +84,9 @@
 
 .filter {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    vertical-align: Top;
     letter-spacing: 0,03em;
 }
 .filter .buttons-all {
@@ -106,6 +98,15 @@
     color: var(--title-text-color);
     cursor: pointer;
 }
+.buttons-all:hover,
+.buttons-all:focus {
+    color: var(--accent-color);
+}
+.buttons:hover,
+.buttons:focus {
+    color: var(--accent-color);
+}
+
 /* Герой */
 .hero {
     font-size: 14px;
@@ -125,7 +126,6 @@
 }
 .button {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -140,8 +140,7 @@
     letter-spacing: 0.06em;
 }
 /* Преимущества */
-.feature .visually-hidden,
-.projects .visually-hidden {
+.feature .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -155,15 +154,11 @@
 }
 
 .title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
     text-transform: uppercase;
-    color: #212121;
-    
+    color: var(--title-text-color);
 }
 .title-item {
     line-height: 1.71;
@@ -182,6 +177,7 @@
     text-align: center;
 }
 .project-name {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -189,7 +185,7 @@
     color: var(--title-text-color);
 }
 .project-work {
-    font-style: 16px;
+    font-size: 16px;
     line-height: 1.88;
     color: var(--primary-text-color);
 }
@@ -203,24 +199,33 @@
     text-align: center;
     
 }
-.team-name .name {
+.name {
+    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--title-text-color);
+}
+.position {
+    line-height: 1.88;
+    font-size: 16px;
+    text-align: center;
+    color: var(--primary-text-color)
 }
 /* Футер */
 .footer {
     background-color: var(--hero-bgd-color);
     font-size: 14px;
 }
-.city {
+.address {
     font-style: normal;
+    
+}
+.city {
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-white-color);
 }
 .contact-item {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     color: var(--contact-color);
